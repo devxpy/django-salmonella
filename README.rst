@@ -33,7 +33,7 @@ And add the ``urlpattern``::
 
     urlpatterns = [
         # ...
-        url(r'^admin/salmonella/', include('salmonella.urls')),
+        path('admin/salmonella/', include('salmonella.urls')),
     ]
 
 ``salmonella`` comes with some static files so don't forget to run
